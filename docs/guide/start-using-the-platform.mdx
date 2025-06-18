@@ -1,0 +1,12 @@
+---
+title: "البدء باستخدام المنصة"
+sidebar_position: 3 
+---
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import RemoteGuide from "../../src/components/RemoteGuide";
+
+<BrowserOnly fallback={<div>جاري التحميل…</div>}>
+{() => (
+<RemoteGuide filePath="docs/guide/start-using-the-platform.md" />
+)}
+</BrowserOnly>

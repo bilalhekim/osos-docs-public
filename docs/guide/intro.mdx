@@ -1,0 +1,13 @@
+---
+title: "مقدمة إلى المنصة"
+sidebar_position: 2
+---
+
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import RemoteGuide from "../../src/components/RemoteGuide";
+
+<BrowserOnly fallback={<div>جاري التحميل…</div>}>
+{() => (
+<RemoteGuide filePath="docs/guide/intro.md" />
+)}
+</BrowserOnly>
